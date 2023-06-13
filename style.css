@@ -1,0 +1,103 @@
+body {
+
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/festival\ image.jpeg);
+    /* The image used */
+    ;
+    background-size: cover;
+    text-align: center;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(42, 29, 58);
+    color: rgb(250, 249, 253);
+    text-align: center;
+    overflow: hidden;
+    margin: 2px;
+    padding: 3px;
+    font-size: medium;
+}
+
+.button {
+    color: white;
+    position: sticky;
+}
+
+.button:hover {
+    background-color: blue;
+    color: aqua;
+}
+
+button {
+    float: center;
+    list-style: none;
+    border-color: white;
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 2s;
+    font-size: larger;
+    color: aqua;
+}
+
+
+.content {
+    width: 29%;
+    color: white;
+    background-color: rgb(42, 24, 58);
+    border-color: white;
+    border-style: solid;
+    float: left;
+    text-align: center;
+    margin: 20px;
+}
+
+#columnleft {
+    float: left;
+}
+
+#columnright {
+    float: left;
+}
+
+li {
+    color: white;
+    display: inline-block;
+    float: center;
+}
+
+.main p {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.image {
+    margin: 33px;
+    background-color: rgb(44, 34, 85);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    float: left;
+
+
+}
+
+.image:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
